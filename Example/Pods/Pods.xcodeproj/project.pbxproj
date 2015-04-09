@@ -42,6 +42,7 @@
 		378D4B98996413DEFBE6D1DB /* SPTSharedExampleGroups.h in Headers */ = {isa = PBXBuildFile; fileRef = 791F98C1FC76DAA8A515DE9E /* SPTSharedExampleGroups.h */; };
 		3888F8A9BC2A2219DEE58508 /* EXPMatchers+postNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = F20CF633BDB48DE2D1F45843 /* EXPMatchers+postNotification.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		38C2AE6C48E4AEB928227B92 /* EXPMatchers+haveCountOf.m in Sources */ = {isa = PBXBuildFile; fileRef = F704C576F867D37382AF99DD /* EXPMatchers+haveCountOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3CB022491AD6444800226C53 /* MyLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB022481AD6444800226C53 /* MyLibrary.m */; };
 		4068E7158C140ECFD9B6EA7B /* EXPBlockDefinedMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C837D0DF89E6CF63740258D0 /* EXPBlockDefinedMatcher.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		4204B6B37FB2B682C9930ACC /* SPTCompiledExample.h in Headers */ = {isa = PBXBuildFile; fileRef = 23F2FAF8A0A8073D55D308B5 /* SPTCompiledExample.h */; };
 		4356631A262BEF4F2D99FE71 /* SpectaUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 6170C05DBFC0A7CE4D9888E3 /* SpectaUtility.h */; };
@@ -218,6 +219,8 @@
 		370E63DB4BFA9CA65A9D5B52 /* libPods-Tests-FBSnapshotTestCase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-FBSnapshotTestCase.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ABF708C6D4B8BAEAF0C741D /* SPTTestSuite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTTestSuite.m; path = Specta/Specta/SPTTestSuite.m; sourceTree = "<group>"; };
 		3B803F50411600F606FBDC18 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3CB022471AD6444800226C53 /* MyLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyLibrary.h; path = Pod/Classes/MyLibrary.h; sourceTree = "<group>"; };
+		3CB022481AD6444800226C53 /* MyLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyLibrary.m; path = Pod/Classes/MyLibrary.m; sourceTree = "<group>"; };
 		3FF0160303D73BB5D240849C /* SPTCallSite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTCallSite.h; path = Specta/Specta/SPTCallSite.h; sourceTree = "<group>"; };
 		4006C7C237B73819E1E19D1C /* Pods-Tests-Expecta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests-Expecta.xcconfig"; sourceTree = "<group>"; };
 		40C45422A8904D1053A896E7 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/UIImage+Diff.h"; sourceTree = "<group>"; };
@@ -581,6 +584,8 @@
 		62E678E428CB709F70FF0E8C /* MyLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				3CB022471AD6444800226C53 /* MyLibrary.h */,
+				3CB022481AD6444800226C53 /* MyLibrary.m */,
 			);
 			name = MyLibrary;
 			path = ../..;
@@ -1010,6 +1015,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				531A366F3445678400618239 /* Pods-MyLibrary-dummy.m in Sources */,
+				3CB022491AD6444800226C53 /* MyLibrary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
